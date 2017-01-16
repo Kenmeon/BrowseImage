@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BrowseImageCollectionCell : UICollectionViewCell
+@interface BrowseImageCollectionCell : UICollectionViewCell<UIScrollViewDelegate>
+@property (strong, nonatomic) UIImageView *contentImageView;
+@property(nonatomic,strong) NSString *imageUrl;
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @end

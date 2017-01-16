@@ -10,4 +10,8 @@
 
 @interface BrowseImageCollectionView : UIView
 
+@property(nonatomic,strong) NSArray *dataSourceArray;
+
+- (instancetype)initWithFrame:(CGRect)frame withDataSource:(NSArray *)dataSource;
+
 @end

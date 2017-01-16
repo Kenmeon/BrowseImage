@@ -10,4 +10,8 @@
 
 @interface ImageModel : NSObject
 
+@property(nonatomic,copy)NSString *sort;
+@property(nonatomic,copy)NSString *imageUrl;
+@property(nonatomic,copy)NSString *content;
+
 @end
